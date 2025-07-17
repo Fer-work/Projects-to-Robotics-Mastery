@@ -2,6 +2,34 @@
 
 **Location:** Tonalá, Jalisco, Mexico
 
+### **Date: July 17, 2025**
+
+#### Summary of Achievements:
+
+**Enclosure Fabrication:** Made significant progress on the power supply's case. The cardboard structure was reinforced with internal support ribs, creating a sturdy housing for the switch and AC power cord.
+
+**Permanent Circuit Assembly:** Began the process of creating a permanent, reliable circuit by soldering the components from the breadboard onto a perfboard.
+
+#### Problems Encountered:
+
+**Circuit Malfunction:** After soldering, the circuit is not operating correctly. On power-up, the output LED indicator lights up for approximately two seconds and then fades out. This indicates a failure to maintain a stable output voltage under load.
+
+#### Next Steps & Troubleshooting Plan:
+
+The immediate priority is to debug the soldered perfboard. The plan is as follows:
+
+- **Systematic Testing:** Adopt a stage-by-stage testing approach.
+
+  - First, test the output of the bridge rectifier alone.
+
+  - Next, add the main smoothing capacitor and verify it holds a stable ~16.8V charge.
+
+  - Finally, re-integrate the 5V regulator section.
+
+- **Soldering Inspection:** Carefully inspect every solder joint for common issues like cold joints (dull or lumpy appearance), solder bridges (accidental connections), or missed connections.
+
+- **Technique Improvement:** Research best practices and tutorials for perfboard soldering to improve wiring techniques for future builds.
+
 ### **July 16, 2025**
 
 #### Summary of Achievements:
